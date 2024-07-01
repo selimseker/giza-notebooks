@@ -1,0 +1,17 @@
+[package]
+name = "inference"
+version = "0.1.0"
+edition = "2023_10"
+
+[dependencies]
+node_0_weight = { path = "../initializers/node_0_weight"} 
+node_0_bias = { path = "../initializers/node_0_bias"} 
+node_2_weight = { path = "../initializers/node_2_weight"} 
+node_2_bias = { path = "../initializers/node_2_bias"} 
+node_4_weight = { path = "../initializers/node_4_weight"} 
+node_4_bias = { path = "../initializers/node_4_bias"} 
+orion = { git = "https://github.com/gizatechxyz/orion.git", rev = "57871a4" } 
+
+
+[cairo]
+enable-gas = false
